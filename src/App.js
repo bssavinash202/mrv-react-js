@@ -1,13 +1,11 @@
 //import logo from './logo.svg';
 import './App.css';
-import JSXBasics from './JSXBasics';
-import Overview from './Overview';
+import ProductPage from './ProductPage';
 
 function App() {
   return (
-    <div className = "APP">
-      <Overview></Overview>
-      <JSXBasics></JSXBasics>
+    <div className = "product-details">
+      <ProductPage></ProductPage>
     </div>
       
   );
