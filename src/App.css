@@ -27,8 +27,9 @@
 .App-link {
   color: #61dafb;
 }
-.product-details {
+.product-details,.product-page {
   text-align: center;
+  font: 2em;
 }
 @keyframes App-logo-spin {
   from {
