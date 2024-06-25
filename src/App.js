@@ -4,8 +4,9 @@ import ProductPage from './ProductPage';
 
 function App() {
   return (
-    <div className = "product-details">
-      <ProductPage></ProductPage>
+    <div className = "product-Deails">
+    
+  <ProductPage/>
     </div>
       
   );
