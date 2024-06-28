@@ -35,12 +35,8 @@ const Dashboard = () => {
   return (
     <div className='Search-Bar'>
       <input
-        type="search"
-        value={searchCity}
-        onChange={handleFilter}
-        placeholder="Search Cities"
-      />
-      <CitiesList cities={cities}/>
+        type="search" value={searchCity} onChange={handleFilter}  placeholder="Search Cities" />
+      <CitiesList cities={cities}></CitiesList>
     </div>
   );
 };
