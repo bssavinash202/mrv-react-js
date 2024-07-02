@@ -4,8 +4,12 @@ font: 1em sans-serif;
 font-size: large;
 };
 
-.Search-bar{
-width : 980px;
-height: 500px;
-padding: 100px;
+.dashboard .searchbar{
+display: inline-block;
+width: 30%;
+margin: 20px;
 };
+.dashboard .asc{
+    display: inline-block;
+  margin: 10px 5px;
+}
