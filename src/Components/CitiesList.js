@@ -4,7 +4,7 @@ const CitiesList = ({ cities, searchCity }) => {
   return (
     <div className='City-Names'>
       {cities.map((city) => (
-        <ul  key={city.id}>{city.id}: {city.name} is the capital of: {city.capital} have the Population of: {city.population}</ul>
+        <ul  key={city.id}>{city.id}: {city.name} is the capital of: <b>{city.capital}</b> have the Population of: <b>{city.population}</b> </ul>
       ))}
     </div>
   );

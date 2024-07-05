@@ -4,12 +4,47 @@ font: 1em sans-serif;
 font-size: large;
 };
 
-.dashboard .searchbar{
+.searchbar{
 display: inline-block;
-width: 30%;
+width: 100%;
 margin: 20px;
 };
 .dashboard .asc{
     display: inline-block;
   margin: 10px 5px;
+}
+.loginform{
+  text-align: center;
+}
+.table{
+  text-align: center;
+  border-collapse: collapse;
+  width: 80%;
+}
+.id{
+  width: 30%;
+  margin: 20px;
+}
+.title{
+  width: 50%;
+}
+.category{
+  width: 30%;
+}
+.price{
+  width: 50%;
+  margin: auto;
+}
+.login{
+  left: 50%;
+  right: 50%;
+  margin-left: -25%;
+  position: absolute;
+  margin-top: -25%;
+}
+.loading{
+  text-align: center;
+}
+.products{
+  text-align: center;
 }
