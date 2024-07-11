@@ -1,0 +1,41 @@
+#dec{
+    background-color: antiquewhite;
+    font-weight: bold;
+    padding: 15px 32px;
+    margin-right: 29px;
+    cursor: pointer;
+    border-radius: 25px;
+    box-shadow: 5px 2px 10px blanchedalmond;
+}
+#inc{
+    background-color: antiquewhite;
+    font-weight: bold;
+    padding: 15px 32px;
+    margin-right: 29px;
+    cursor: pointer;
+    border-radius: 25px;
+    box-shadow: 5px 2px 10px blanchedalmond;
+}
+body{
+    background-color: gray;
+    
+}
+#btns{
+    text-align: center;
+    margin-top: 10%; 
+}
+p{
+    font-weight:bold;
+    font-size: x-large;
+    color: antiquewhite;
+}
+#reset{
+    background-color: antiquewhite;
+    font-weight: bold;
+    padding: 15px 32px;
+    margin-right: 29px;
+    cursor: pointer;
+    border-radius: 25px;
+    box-shadow: 5px 2px 10px blanchedalmond;
+    margin-top: 2em;
+}

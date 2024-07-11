@@ -2,7 +2,7 @@ import React from 'react'
 
 function ProductsList({products, searchValue}) {
     const filteredProducts = products.filter((product) => {
-        return product.title.toLowerCase().includes(searchValue.toLowerCase());
+        return product.category.toLowerCase().includes(searchValue.toLowerCase());
       });
     return (
        

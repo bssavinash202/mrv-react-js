@@ -1,0 +1,11 @@
+body{
+    text-align: center;
+    
+    background-color: antiquewhite;
+}
+#list{
+    font-size: large;
+    font-weight: 500;
+    text-align: justify;
+    
+}
