@@ -33,7 +33,7 @@ const handlePrev = () => {
       <Image image={images[currentIndex]} />
       <button id='pre' onClick={handlePrev}>&#10094;</button>
       <button id='next' onClick={handleNext}>&#10095;</button>
-       <h3>Current Photo: {captions[currentIndex]}</h3>
+       <h2>Current Photo - {captions[currentIndex]}</h2>
       
     </div>
   );
