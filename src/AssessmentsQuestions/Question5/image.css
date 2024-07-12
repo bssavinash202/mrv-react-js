@@ -20,30 +20,40 @@ button{
 #pre{
     background-color:blanchedalmond;
     font-weight: bold;
-    left: 10px;
+    left: 329px;
     padding: 15px 32px;
-    margin-right: 10px;
+    margin-right: 29px;
     cursor: pointer;
     border-radius: 25px;
     box-shadow: 5px 2px 10px  rgb(92, 61, 20);
     padding: 20px 50px;
+    background-color: transparent;
 }
 #next{
     background-color: antiquewhite;
     font-weight: bold;
-    right:10px;
+    right:300px;
     padding: 15px 32px;
     margin-right: 29px;
     cursor: pointer;
     padding: 20px 50px;
     border-radius: 25px;
     box-shadow: 5px 2px 10px rgb(92, 61, 20);
+    background-color: transparent;
+}
+#pre:hover, #next:hover{
+box-shadow: 10px 4px 10px rgb(8, 5, 0);
+}
+#pre::after, #next::after{
+    background-color: beige;
+    box-shadow: 0 5px beige;
 }
 img{
     height: 500px;
-    width: 500px;
+    width: 700px;
 }
 h3{
     font-style: italic;
     font-size: x-large;
+    color: brown;
 }

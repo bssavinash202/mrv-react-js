@@ -13,7 +13,6 @@
 //import Dashboard from './Components/Dashboard';
 //import UserForm from './Components/UserForm';
 import Slider from "./AssessmentsQuestions/Question5/Slider";
-
 //import SortBy from "./AssessmentsQuestions/Question6/SortBy";
 function App() {
   return (

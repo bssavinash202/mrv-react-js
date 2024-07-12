@@ -5,10 +5,8 @@ const DataFetching=()=> {
     useEffect(()=>{
         fetch('https://dummyjson.com/products')
         .then(Response=>(Response.json()))
-        .then(data=>{
-            
-            setProducts(data.products);
-            
+        .then(data=>{   
+            setProducts(data.products);  
         })
     },[]);
     return (

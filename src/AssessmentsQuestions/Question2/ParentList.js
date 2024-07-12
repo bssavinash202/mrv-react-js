@@ -24,7 +24,6 @@ const ParentList=()=> {
     
     return (
         <div>
-            
             <Child list={list}></Child>
         </div>
     )

@@ -15,6 +15,7 @@ function Child({products,  searchValue, sortCriteria, searchBy}) {
               return product.category.toLowerCase().includes(searchValue.toLowerCase());
             });
           }
+          
       let sortedProducts = filteredProducts;
 
     if (sortCriteria === 'title') {
