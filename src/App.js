@@ -12,11 +12,14 @@
 //import Fun from './fun/Fun';
 //import Dashboard from './Components/Dashboard';
 //import UserForm from './Components/UserForm';
-import Slider from "./AssessmentsQuestions/Question5/Slider";
+//import Slider from "./AssessmentsQuestions/Question5/Slider";
 //import SortBy from "./AssessmentsQuestions/Question6/SortBy";
+import Middle from "./Nike/Middle";
+import Page from "./Nike/page";
+import './Nike/Page.css';
 function App() {
   return (
-    <div className = "Search City">
+    <div >
     
   {/*<ProductPage/>*/}
   {/* <Dashboard></Dashboard> 
@@ -33,7 +36,9 @@ function App() {
   {/* <DataFetching></DataFetching> */}
     {/* <ParentFetch></ParentFetch> */}
     {/* <SortBy></SortBy> */}
-    <Slider></Slider>
+    {/* <Slider></Slider> */}
+    <Page></Page>
+    <Middle></Middle>
     </div>
       
   );

@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+button{
+    all: unset;
+    padding: 6px 16px;
+    background: red;
+    color: white;
+    font-weight: 500;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    align-items:center;
+    margin-right: 20px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 57px;
+    margin-right: 35px;
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    height: 52;
+    width: 62;
+    background: transparent;
+    
+}
+.hero{
+    display: flex;
+    align-items: center;
+    
+    flex-direction: column;
+    gap: 36px;
+}
+.icons{
+    display: flex;
+    height: 25px;
+    width: 25px;
+    gap: 20px;
+}
+.ecom{
+    display: flex;
+    gap: 30px;
+}
+.image{
+    display: flex;
+    gap: 20px;
+    margin-left: 10px;
+    height: 90%;
+    width: 90%;
+    
+}
+.firstbtn{
+    display: flex;
+    gap: 20px;
+    font-size: 24px;
+    
+}
+
+button{
+    border: 1px solid gray;
+    cursor: pointer;
+}
+h1{
+    font-size: 108px;
+    line-height: 102px;
+    font-weight: 800;
+    margin-left: 100px;
+}
+.desc {
+    font-weight: 600;
+    color: gray;
+    max-width: 400px;
+    margin-left: 100px;
+}
+main{
+    display: flex;
+}
